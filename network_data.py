@@ -18,7 +18,7 @@ def import_energy_info():
     Ps.columns = Ps.columns.astype(int)
     Pd = pd.read_csv(os.path.join("inputs", "energy", "load_bid_prices.csv"), header=0, index_col=0)
     Pd.columns = Pd.columns.astype(int)
-    loads_val = pd.read_csv(os.path.join("inputs", "energy", "loads_bid_qnt.csv"), header=0, index_col=0)
+    loads_val = pd.read_csv(os.path.join("inputs", "energy", "load_bid_qnt.csv"), header=0, index_col=0)
     loads_val.columns = loads_val.columns.astype(int)
     gen_val = pd.read_csv(os.path.join("inputs", "energy", "gen_bid_qnt.csv"), header=0, index_col=0)
     gen_val.columns = gen_val.columns.astype(int)
