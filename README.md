@@ -9,7 +9,9 @@ To run the tool, the following command must be run:
 ```
 python main.py [boolean] [boolean] [boolean]
 ```
-The three boolean arguments refer to their respective market: **energy**, **secondary** and **tertiary**. Setting the argument to:
+The three boolean arguments refer to their respective market: **energy**, **secondary** and **tertiary**. 
+
+Setting the argument to:
 - **True**:  will clear the correspoding market.
 - **False**: will ignore the corresponding market clearing optimization.
 
